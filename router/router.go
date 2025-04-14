@@ -11,4 +11,5 @@ func Setup(app *fiber.App) {
 	app.Post("/tabung", handler.Tabung)
 	app.Post("/tarik", handler.Tarik)
 	app.Get("/saldo/:no_rekening", handler.CekSaldo)
+	app.Get("/transaksi/:no_rekening", handler.ListTransaksiByRekening)
 }

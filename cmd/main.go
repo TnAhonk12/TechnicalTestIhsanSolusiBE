@@ -16,7 +16,7 @@ func main() {
 
 	cfg := config.LoadConfig()
 	db.Init(cfg)
-	db.DB.AutoMigrate(&model.Nasabah{})
+	db.DB.AutoMigrate(&model.Nasabah{}, &model.Transaksi{})
 
 	app := fiber.New()
 	router.Setup(app)
