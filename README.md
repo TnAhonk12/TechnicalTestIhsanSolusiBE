@@ -4,7 +4,7 @@
 > [GDrive](https://drive.google.com/file/d/15H5gJbtyJ9rE1iCXxHYeC1QFIAoWAmGo/view?usp=sharing)
 
 ### Cara Install Library
-Jika kamu menjalankan tanpa Docker, pastikan dependencies sudah diinstall:
+pastikan dependencies sudah diinstall:
 ```bash
 go get github.com/gofiber/fiber/v2
 go get gorm.io/gorm
