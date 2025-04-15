@@ -1,7 +1,7 @@
 # Technical Test PT Ihsan Solusi posisi iBE
 
 ## Penjelasan dan Demo Video
-> [GDrive](https://drive.google.com/file/d/15H5gJbtyJ9rE1iCXxHYeC1QFIAoWAmGo/view?usp=sharing)
+> [Klik disini untuk menonton Video Penjelasan dan Demo Video](https://drive.google.com/file/d/15H5gJbtyJ9rE1iCXxHYeC1QFIAoWAmGo/view?usp=sharing)
 
 ### Cara Install Library
 pastikan dependencies sudah diinstall:
