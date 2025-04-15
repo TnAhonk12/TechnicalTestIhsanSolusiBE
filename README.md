@@ -1,4 +1,4 @@
-# Technical Test PT Ihsan Solusi posisi iBE
+# Technical Test PT Ihsan Solusi Informatika posisi BE
 
 ## Penjelasan dan Demo Video
 > [Klik disini untuk menonton Video Penjelasan dan Demo Video](https://drive.google.com/file/d/15H5gJbtyJ9rE1iCXxHYeC1QFIAoWAmGo/view?usp=sharing)
