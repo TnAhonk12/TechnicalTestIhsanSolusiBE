@@ -28,5 +28,5 @@ func main() {
 	router.Setup(app)
 
 	log.Printf("[INFO] Server running at port %s", cfg.AppPort)
-	log.Fatal(app.Listen(":" + cfg.AppPort))
+	log.Fatal(app.Listen(cfg.AppHost + ":" + cfg.AppPort))
 }

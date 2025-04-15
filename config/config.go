@@ -11,6 +11,7 @@ type Config struct {
 	DBName     string
 	DBHost     string
 	DBPort     string
+	AppHost    string
 	AppPort    string
 }
 
@@ -21,6 +22,7 @@ func LoadConfig() *Config {
 		DBName:     os.Getenv("DB_NAME"),
 		DBHost:     os.Getenv("DB_HOST"),
 		DBPort:     os.Getenv("DB_PORT"),
+		AppHost:    getArg("-host", "0.0.0.0"),
 		AppPort:    getArg("-port", "8080"),
 	}
 }
